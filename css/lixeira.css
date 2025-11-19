@@ -1,0 +1,16 @@
+/* lixeira.css */
+.single-lixeira{display:flex;gap:18px}
+.sidecard{width:280px;flex-shrink:0}
+.details{flex:1;display:flex;flex-direction:column;gap:12px}
+.controls-row{display:flex;gap:8px;margin-top:8px}
+.filters label{font-size:14px}
+@media (max-width:900px){
+  .single-lixeira{flex-direction:column}
+  .sidecard{width:100%}
+}
+
+.content_container {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}

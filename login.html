@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GRU — Login / Cadastro</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/login.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header class="site-header small">
+    <div class="brand">
+      <img src="img/logo_gru.png" alt="GRU logo" class="logo" />
+      <h1>GRU</h1>
+    </div>
+  </header>
+
+  <main class="container auth-grid">
+    <section class="card auth-card">
+      <h3>Login</h3>
+      <form>
+        <label>Email<input id="email" type="email" /></label>
+        <label>Senha<input id="senha" type="password" /></label>
+        <button id="botao" class="btn primary" type="submit">Realizar Login</button>
+      </form>
+    </section>
+
+    <section class="card auth-card">
+      <h3>Cadastro</h3>
+      <form>
+        <label>Nome completo<input type="text" /></label>
+        <label>CPF/CNPJ<input/></label>
+        <label>Email<input type="email" /></label>
+        <label>Senha<input type="password" /></label>
+        <label>Telefone<input/></label>
+        <button class="btn primary" type="submit">Concluir cadastro</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">GRU — Gerenciamento de Resíduos Urbanos</footer>
+  <script src="javascript/login.js"></script>
+</body>
+</html>
